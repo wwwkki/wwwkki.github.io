@@ -1,0 +1,63 @@
+---
+title: "从零搭建个人技术网站 — Next.js + Tailwind CSS 实战"
+date: "2024-06-15"
+readTime: "8 分钟"
+tags: ["Next.js", "Tailwind CSS", "个人网站", "前端开发"]
+description: "详细记录使用 Next.js 14 和 Tailwind CSS 从零搭建个人技术网站的全过程。"
+---
+
+## 前言
+
+搭建一个个人技术网站是展示技术能力、记录学习过程的最佳方式之一。本文将详细介绍如何使用 Next.js 和 Tailwind CSS 从零搭建一个功能完善的个人网站。
+
+## 技术选型
+
+### 为什么选择 Next.js？
+
+- **App Router**: 基于文件系统的路由，直观且高效
+- **Server Components**: 默认服务端渲染，性能优异
+- **静态生成**: 博客内容可以预渲染为静态页面
+- **Vercel 部署**: 一键部署，自动 CI/CD
+
+### 为什么选择 Tailwind CSS？
+
+- **Utility-First**: 原子化 CSS 类，开发效率极高
+- **响应式设计**: 内置断点系统，移动端适配简单
+- **JIT 引擎**: 按需生成 CSS，构建产物极小
+
+## 项目架构
+
+```
+src/
+├── app/          # Next.js App Router 页面
+├── components/   # 可复用组件
+├── data/         # 数据层 (类型定义 + 数据)
+├── content/      # MDX 博客内容
+└── lib/          # 工具函数
+```
+
+## 核心页面
+
+1. **首页** — 个人介绍与技能概览
+2. **关于我** — 教育背景与工作经历
+3. **技术栈** — 分类展示技术能力
+4. **学习路径** — 时间线展示成长历程
+5. **博客** — 技术文章分享
+6. **论文** — 学术成果展示
+7. **联系** — 联系方式与表单
+
+## 部署
+
+项目通过 Vercel 部署：
+
+```bash
+# 安装 Vercel CLI
+npm i -g vercel
+
+# 部署
+vercel
+```
+
+## 总结
+
+通过这个项目，你掌握了 Next.js App Router 的核心概念和 Tailwind CSS 的实用技巧。希望这篇文章对你有所帮助！
