@@ -55,7 +55,7 @@ export default function Footer() {
             </h3>
             <div className="mt-3 flex items-center gap-3">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/wwwkki"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-all"
@@ -64,7 +64,7 @@ export default function Footer() {
                 <FaGithub size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/wwwkki"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all"
@@ -73,7 +73,7 @@ export default function Footer() {
                 <FaLinkedin size={20} />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:wwwkki123@163.com"
                 className="p-2 text-gray-500 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all"
                 aria-label="Email"
               >
@@ -86,7 +86,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-sm text-gray-400">
-            &copy; {currentYear} Your Name. All rights reserved.
+            &copy; {currentYear} wwwkki. All rights reserved.
           </p>
           <p className="text-sm text-gray-400 flex items-center gap-1">
             Built with <Heart size={14} className="text-red-400 fill-red-400" /> using Next.js & Tailwind CSS

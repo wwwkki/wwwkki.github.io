@@ -45,7 +45,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-400">GitHub</p>
-                  <p className="text-sm font-medium">@yourusername</p>
+                  <p className="text-sm font-medium">@wwwkki</p>
                 </div>
               </a>
 
@@ -60,7 +60,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-400">LinkedIn</p>
-                  <p className="text-sm font-medium">@yourusername</p>
+                  <p className="text-sm font-medium">@wwwkki</p>
                 </div>
               </a>
 

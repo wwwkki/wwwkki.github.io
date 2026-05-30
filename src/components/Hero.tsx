@@ -24,7 +24,7 @@ export default function Hero() {
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 mb-6 leading-tight">
           你好，我是{" "}
           <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
-            Your Name
+            wwwkki
           </span>
         </h1>
 

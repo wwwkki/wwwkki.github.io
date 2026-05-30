@@ -43,7 +43,7 @@ export default function Header() {
             ))}
             <div className="ml-4 flex items-center gap-2 border-l border-gray-200 pl-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/wwwkki"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-all"
@@ -52,7 +52,7 @@ export default function Header() {
                 <FaGithub size={18} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/wwwkki"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all"
