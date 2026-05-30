@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://wwwkki.vercel.app";
+  const baseUrl = "https://project3-gray-one.vercel.app";
 
   const staticRoutes = [
     { path: "", priority: 1.0, changeFreq: "weekly" as const },

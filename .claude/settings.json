@@ -9,7 +9,11 @@
       "PowerShell(npx vercel --yes --cwd . 2>&1)",
       "PowerShell(git add .)",
       "PowerShell(git config user.email \"wwwkki123@163.com\")",
-      "PowerShell(git config user.name \"wwwkki\")"
+      "PowerShell(git config user.name \"wwwkki\")",
+      "PowerShell(gh auth status 2>&1)",
+      "PowerShell(gh --version 2>&1)",
+      "PowerShell(git commit -m \"fix: update SEO URLs to actual Vercel deployment domain\")",
+      "PowerShell(git push 2>&1)"
     ]
   }
 }

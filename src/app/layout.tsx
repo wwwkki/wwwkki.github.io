@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://wwwkki.vercel.app"),
+  metadataBase: new URL("https://project3-gray-one.vercel.app"),
   title: {
     default: "wwwkki — Full-Stack Developer & Researcher",
     template: "%s | wwwkki",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "zh_CN",
-    url: "https://wwwkki.vercel.app",
+    url: "https://project3-gray-one.vercel.app",
     siteName: "wwwkki Portfolio",
     title: "wwwkki — Full-Stack Developer & Researcher",
     description: "全栈开发者 & AI 研究员 | 个人技术网站",
