@@ -13,7 +13,8 @@
       "PowerShell(gh auth status 2>&1)",
       "PowerShell(gh --version 2>&1)",
       "PowerShell(git commit -m \"fix: update SEO URLs to actual Vercel deployment domain\")",
-      "PowerShell(git push 2>&1)"
+      "PowerShell(git push 2>&1)",
+      "PowerShell(git commit -m \"feat: add Google Search Console verification\")"
     ]
   }
 }

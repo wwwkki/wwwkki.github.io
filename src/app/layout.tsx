@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   verification: {
-    google: "你的Google验证码",
+    google: "ZRI2rHXbt55jTljEAx5eVIOjVgFBsbIBn4XhynoI3ws",
   },
 };
 
