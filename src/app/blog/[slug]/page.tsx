@@ -183,6 +183,10 @@ type EventName<T extends string> = \`on\${Capitalize<T>}\`;
   },
 };
 
+export function generateStaticParams() {
+  return Object.keys(blogContent).map((slug) => ({ slug }));
+}
+
 export default async function BlogPostPage({
   params,
 }: {
