@@ -1,7 +1,7 @@
 import SectionHeading from "@/components/SectionHeading";
 import ContactForm from "@/components/ContactForm";
 import { personalInfo } from "@/data/personal-info";
-import { Mail, MapPin, FileText } from "lucide-react";
+import { Mail, MapPin, FileText, BookOpen } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function ContactPage() {
@@ -61,6 +61,21 @@ export default function ContactPage() {
                 <div>
                   <p className="text-xs text-gray-400">LinkedIn</p>
                   <p className="text-sm font-medium">@wwwkki</p>
+                </div>
+              </a>
+
+              <a
+                href={personalInfo.social.arxiv}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-gray-600 hover:text-red-600 transition-colors group"
+              >
+                <div className="w-10 h-10 rounded-xl bg-red-50 flex items-center justify-center group-hover:bg-red-100 transition-colors">
+                  <BookOpen size={18} className="text-red-600" />
+                </div>
+                <div>
+                  <p className="text-xs text-gray-400">arXiv</p>
+                  <p className="text-sm font-medium">预印本主页</p>
                 </div>
               </a>
 

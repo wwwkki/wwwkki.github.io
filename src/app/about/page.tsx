@@ -5,6 +5,7 @@ import {
   Briefcase,
   MapPin,
   Mail,
+  BookOpen,
 } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -56,6 +57,15 @@ export default function AboutPage() {
                 className="p-2 text-gray-500 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all"
               >
                 <Mail size={20} />
+              </a>
+              <a
+                href={personalInfo.social.arxiv}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 text-gray-500 hover:text-red-600 hover:bg-red-50 rounded-lg transition-all"
+                aria-label="arXiv"
+              >
+                <BookOpen size={20} />
               </a>
             </div>
           </div>
