@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "wwwkki",
-  title: "Full-Stack Developer & Researcher",
-  bio: "热爱技术，专注于 Web 开发、人工智能和开源社区。致力于将前沿技术转化为实际应用，持续学习与分享。",
+  title: "Software Engineer",
+  bio: "carpe diem.",
   avatar: "/avatar.jpg",
   social: {
     github: "https://github.com/wwwkki",
@@ -12,26 +12,31 @@ export const personalInfo = {
     googleScholar: "https://scholar.google.com/citations?user=yourid",
     arxiv: "https://arxiv.org/a/your-arxiv-id.html",
   },
-  location: "中国",
+  location: "China",
   education: [
     {
-      degree: "学士学位 - 通信工程",
-      school: "四川大学",
+      degree: "Bachelor - Communication Engineering",
+      school: "Sichuan University",
       period: "2023.9 - 2027.6",
     },
   ],
   experience: [
     {
-      role: "通信工程师",
-      company: "四川准达信息技术股份有限公司",
+      role: "Communication Engineer Intern",
+      company: "Sichuan Zhunda Information Technology Co., Ltd.",
       period: "2026.7.6 - 2026.7.31",
-      description: "完成VLAN、STP、OSPF、ACL、WLAN等园区网络规划与配置",
+      description:[
+        "Planning and Configuration of Large-Scale Campus Networks",
+        "Enterprise Network Security Hardening and Data Storage",
+        "Construction of Visualization and Hybrid Cloud Platforms",
+        "Al Fundamentals plus 5G Network Planning and Optimization",
+      ],
     },
     {
-      role: "XX 实习生",
-      company: "XX 研究院",
+      role: "XX Intern",
+      company: "XX Research Institute",
       period: "XXXX - XXXX",
-      description: "XXXX",
+      description: ["XXXX"],
     },
   ],
 };

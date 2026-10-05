@@ -14,8 +14,8 @@ export default function AboutPage() {
     <main className="min-h-screen pt-24 pb-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          title="关于我"
-          description="了解我的背景、经历和技能"
+          title="About Me"
+          description="Personal Background & Experiences"
         />
 
         {/* Avatar & basic info */}
@@ -99,7 +99,7 @@ export default function AboutPage() {
           <div className="p-6 rounded-2xl bg-white border border-gray-100">
             <div className="flex items-center gap-2 mb-6">
               <Briefcase size={20} className="text-purple-600" />
-              <h2 className="text-lg font-semibold text-gray-900">工作经历</h2>
+              <h2 className="text-lg font-semibold text-gray-900">Work Experience</h2>
             </div>
             <div className="space-y-6">
               {personalInfo.experience.map((exp, i) => (
@@ -112,7 +112,15 @@ export default function AboutPage() {
                     {exp.role}
                   </h3>
                   <p className="text-sm text-gray-500">{exp.company}</p>
-                  <p className="text-sm text-gray-400 mt-1">{exp.description}</p>
+                  <div className="text-sm text-gray-400 mt-1 space-y-1">
+                    {Array.isArray(exp.description) ? (
+                      exp.description.map((item, index) => (
+                        <p key={index}>{item}</p>
+                      ))
+                    ) : (
+                      <p>{exp.description}</p>
+                    )}
+                </div>
                 </div>
               ))}
             </div>
