@@ -15,7 +15,7 @@ export default function AboutPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           title="About Me"
-          description="Personal Background & Experiences"
+          description="Personal Background & Intern Experiences"
         />
 
         {/* Avatar & basic info */}
@@ -77,7 +77,7 @@ export default function AboutPage() {
           <div className="p-6 rounded-2xl bg-white border border-gray-100">
             <div className="flex items-center gap-2 mb-6">
               <GraduationCap size={20} className="text-blue-600" />
-              <h2 className="text-lg font-semibold text-gray-900">教育背景</h2>
+              <h2 className="text-lg font-semibold text-gray-900">Educational Background</h2>
             </div>
             <div className="space-y-6">
               {personalInfo.education.map((edu, i) => (
@@ -99,7 +99,7 @@ export default function AboutPage() {
           <div className="p-6 rounded-2xl bg-white border border-gray-100">
             <div className="flex items-center gap-2 mb-6">
               <Briefcase size={20} className="text-purple-600" />
-              <h2 className="text-lg font-semibold text-gray-900">Work Experience</h2>
+              <h2 className="text-lg font-semibold text-gray-900">Intern Experiences</h2>
             </div>
             <div className="space-y-6">
               {personalInfo.experience.map((exp, i) => (

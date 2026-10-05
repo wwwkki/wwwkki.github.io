@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "wwwkki",
   title: "Software Engineer",
-  bio: "carpe diem.",
+  bio: "Carpe diem.",
   avatar: "/avatar.jpg",
   social: {
     github: "https://github.com/wwwkki",
