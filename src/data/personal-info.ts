@@ -17,21 +17,21 @@ export const personalInfo = {
     {
       degree: "学士学位 - 通信工程",
       school: "四川大学",
-      period: "2023 - 2027",
+      period: "2023.9 - 2027.6",
     },
   ],
   experience: [
     {
-      role: "软件开发工程师",
-      company: "XX 科技公司",
-      period: "2022 - 至今",
-      description: "负责核心业务系统的架构设计与开发，主导多个重要项目的技术选型和实现。",
+      role: "通信工程师",
+      company: "四川准达信息技术股份有限公司",
+      period: "2026.7.6 - 2026.7.31",
+      description: "完成VLAN、STP、OSPF、ACL、WLAN等园区网络规划与配置",
     },
     {
-      role: "研究实习生",
+      role: "XX 实习生",
       company: "XX 研究院",
-      period: "2021 - 2022",
-      description: "参与自然语言处理相关研究项目，发表学术论文 2 篇。",
+      period: "XXXX - XXXX",
+      description: "XXXX",
     },
   ],
 };
