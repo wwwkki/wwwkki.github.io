@@ -7,8 +7,8 @@ export default function TechStackPage() {
     <main className="min-h-screen pt-24 pb-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          title="技术栈"
-          description="我日常使用和持续学习的技术与工具"
+          title="Tech Stack"
+          description="The technologies and tools I use and continue to learn"
         />
 
         <div className="space-y-16">

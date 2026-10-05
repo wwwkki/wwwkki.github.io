@@ -72,11 +72,11 @@ export default function TimelineItem({ milestone, isLast }: TimelineItemProps) {
             className={`inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded-full ${config.bg} ${config.color}`}
           >
             {config.icon}
-            {milestone.type === "course" && "课程"}
-            {milestone.type === "project" && "项目"}
-            {milestone.type === "certification" && "认证"}
-            {milestone.type === "milestone" && "里程碑"}
-            {milestone.type === "paper" && "论文"}
+            {milestone.type === "course" && "Course"}
+            {milestone.type === "project" && "Project"}
+            {milestone.type === "certification" && "Certification"}
+            {milestone.type === "milestone" && "Milestone"}
+            {milestone.type === "paper" && "Paper"}
           </span>
         </div>
 
@@ -107,7 +107,7 @@ export default function TimelineItem({ milestone, isLast }: TimelineItemProps) {
             rel="noopener noreferrer"
             className="text-sm text-blue-600 hover:text-blue-700 font-medium inline-flex items-center gap-1"
           >
-            查看详情 &rarr;
+            View Details &rarr;
           </a>
         )}
       </div>

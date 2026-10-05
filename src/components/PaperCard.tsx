@@ -2,9 +2,9 @@ import { FileText, ExternalLink, Download, Code2, Presentation } from "lucide-re
 import type { Paper } from "@/data/papers";
 
 const typeLabels: Record<Paper["type"], { label: string; color: string }> = {
-  journal: { label: "期刊", color: "bg-green-50 text-green-600" },
-  conference: { label: "会议", color: "bg-blue-50 text-blue-600" },
-  preprint: { label: "预印本", color: "bg-amber-50 text-amber-600" },
+  journal: { label: "Journal", color: "bg-green-50 text-green-600" },
+  conference: { label: "Conference", color: "bg-blue-50 text-blue-600" },
+  preprint: { label: "Preprint", color: "bg-amber-50 text-amber-600" },
 };
 
 interface PaperCardProps {

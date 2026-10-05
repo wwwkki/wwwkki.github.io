@@ -4,57 +4,57 @@ import BlogCard from "@/components/BlogCard";
 const blogPosts = [
   {
     slug: "build-personal-website",
-    title: "从零搭建个人技术网站 — Next.js + Tailwind CSS 实战",
+    title: "Building a Personal Portfolio from Scratch — Next.js + Tailwind CSS in Practice",
     description:
-      "详细记录使用 Next.js 14 和 Tailwind CSS 从零搭建个人技术网站的全过程，包括项目架构设计、组件开发、MDX 博客集成和 Vercel 部署。",
+      "A detailed account of building a personal portfolio with Next.js 14 and Tailwind CSS, covering architecture design, component development, MDX integration, and Vercel deployment.",
     date: "2024-06-15",
-    readTime: "8 分钟",
-    tags: ["Next.js", "Tailwind CSS", "个人网站", "前端开发"],
+    readTime: "8 min read",
+    tags: ["Next.js", "Tailwind CSS", "Personal Portfolio", "Frontend Development"],
   },
   {
     slug: "llm-rag-practice",
-    title: "RAG 架构实战：构建基于大语言模型的知识问答系统",
+    title: "RAG in Practice: Building an LLM-Powered Knowledge Q&A System",
     description:
-      "深入探讨检索增强生成（RAG）架构的核心原理，分享使用 LangChain 和向量数据库构建企业级知识问答系统的实战经验。",
+      "An in-depth exploration of retrieval-augmented generation (RAG), with practical lessons from building an enterprise knowledge Q&A system using LangChain and vector databases.",
     date: "2024-05-20",
-    readTime: "15 分钟",
-    tags: ["LLM", "RAG", "LangChain", "向量数据库"],
+    readTime: "15 min read",
+    tags: ["LLM", "RAG", "LangChain", "Vector Databases"],
   },
   {
     slug: "typescript-advanced",
-    title: "TypeScript 高级类型技巧：从入门到精通",
+    title: "Advanced TypeScript Types: From Fundamentals to Mastery",
     description:
-      "总结 TypeScript 中常用的高级类型技巧，包括条件类型、映射类型、模板字面量类型等，帮助提升代码的类型安全性。",
+      "A practical summary of advanced TypeScript techniques, including conditional, mapped, and template literal types, to improve type safety.",
     date: "2024-04-10",
-    readTime: "12 分钟",
-    tags: ["TypeScript", "类型系统", "编程技巧"],
+    readTime: "12 min read",
+    tags: ["TypeScript", "Type Systems", "Programming Techniques"],
   },
   {
     slug: "git-workflow",
-    title: "高效 Git 工作流：团队协作最佳实践",
+    title: "Efficient Git Workflows: Best Practices for Team Collaboration",
     description:
-      "分享在团队开发中常用的 Git 工作流策略，包括 Git Flow、Trunk-Based Development 以及如何规范 commit message。",
+      "Common Git workflow strategies for team development, including Git Flow, trunk-based development, and standardized commit messages.",
     date: "2024-03-05",
-    readTime: "6 分钟",
-    tags: ["Git", "DevOps", "团队协作"],
+    readTime: "6 min read",
+    tags: ["Git", "DevOps", "Team Collaboration"],
   },
   {
     slug: "react-performance",
-    title: "React 性能优化指南：从渲染原理到实践技巧",
+    title: "React Performance Optimization: From Rendering Principles to Practice",
     description:
-      "深入分析 React 的渲染机制，总结常见的性能优化策略，包括 memo、useMemo、虚拟列表、代码分割等实用技巧。",
+      "An in-depth analysis of React rendering, with practical optimization strategies covering memoization, useMemo, virtualized lists, and code splitting.",
     date: "2024-02-18",
-    readTime: "10 分钟",
-    tags: ["React", "性能优化", "前端"],
+    readTime: "10 min read",
+    tags: ["React", "Performance Optimization", "Frontend"],
   },
   {
     slug: "docker-intro",
-    title: "Docker 入门与实践：从容器化到微服务部署",
+    title: "Docker Fundamentals and Practice: From Containerization to Microservice Delivery",
     description:
-      "一篇面向初学者的 Docker 入门教程，涵盖镜像构建、容器管理、Docker Compose 编排以及多阶段构建的最佳实践。",
+      "A beginner-friendly Docker guide covering image creation, container management, Docker Compose orchestration, and multi-stage build best practices.",
     date: "2024-01-08",
-    readTime: "10 分钟",
-    tags: ["Docker", "DevOps", "微服务"],
+    readTime: "10 min read",
+    tags: ["Docker", "DevOps", "Microservices"],
   },
 ];
 
@@ -63,8 +63,8 @@ export default function BlogPage() {
     <main className="min-h-screen pt-24 pb-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          title="博客"
-          description="分享学习心得、技术实践和研究思考"
+          title="Blog"
+          description="Notes on learning, technical practice, and research"
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

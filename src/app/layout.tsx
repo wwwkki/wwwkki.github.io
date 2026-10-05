@@ -21,18 +21,18 @@ export const metadata: Metadata = {
     template: "%s | wwwkki",
   },
   description:
-    "wwwkki 的个人技术网站，展示技术栈、学习路径、博客文章和学术论文。热爱 Web 开发与人工智能，持续学习与分享。",
+    "wwwkki's personal portfolio showcasing technical expertise, learning milestones, articles, and academic research. Passionate about Web development and artificial intelligence.",
   keywords: [
     "wwwkki",
-    "全栈开发",
-    "前端",
+    "Full-Stack Development",
+    "Frontend Development",
     "React",
     "Next.js",
     "AI",
     "NLP",
-    "个人网站",
-    "博客",
-    "技术博客",
+    "Personal Portfolio",
+    "Blog",
+    "Technical Blog",
   ],
   authors: [{ name: "wwwkki", url: "https://github.com/wwwkki" }],
   creator: "wwwkki",
@@ -50,11 +50,11 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "zh_CN",
+    locale: "en_US",
     url: "https://wwwkki.vercel.app",
     siteName: "wwwkki Portfolio",
     title: "wwwkki — Full-Stack Developer & Researcher",
-    description: "全栈开发者 & AI 研究员 | 个人技术网站",
+    description: "Full-Stack Developer & AI Researcher | Personal Portfolio",
     images: [
       {
         url: "/og-image.png",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "wwwkki — Full-Stack Developer & Researcher",
-    description: "全栈开发者 & AI 研究员 | 个人技术网站",
+    description: "Full-Stack Developer & AI Researcher | Personal Portfolio",
     images: ["/og-image.png"],
   },
   verification: {
@@ -82,7 +82,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="zh-CN"
+      lang="en"
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
       <head>

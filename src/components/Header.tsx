@@ -6,13 +6,13 @@ import { Menu, X } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const navLinks = [
-  { href: "/", label: "首页" },
-  { href: "/about", label: "关于我" },
-  { href: "/tech-stack", label: "技术栈" },
-  { href: "/learning-path", label: "学习路径" },
-  { href: "/blog", label: "博客" },
-  { href: "/papers", label: "论文" },
-  { href: "/contact", label: "联系" },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/tech-stack", label: "Tech Stack" },
+  { href: "/learning-path", label: "Learning Path" },
+  { href: "/blog", label: "Blog" },
+  { href: "/papers", label: "Papers" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Header() {

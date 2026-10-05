@@ -11,143 +11,143 @@ const blogContent: Record<string, {
   content: string;
 }> = {
   "build-personal-website": {
-    title: "从零搭建个人技术网站 — Next.js + Tailwind CSS 实战",
+    title: "Building a Personal Portfolio from Scratch — Next.js + Tailwind CSS in Practice",
     date: "2024-06-15",
-    readTime: "8 分钟",
-    tags: ["Next.js", "Tailwind CSS", "个人网站", "前端开发"],
-    content: `## 前言
+    readTime: "8 min read",
+    tags: ["Next.js", "Tailwind CSS", "Personal Portfolio", "Frontend Development"],
+    content: `## Introduction
 
-搭建一个个人技术网站是展示技术能力、记录学习过程的最佳方式之一。本文将详细介绍如何使用 Next.js 14 和 Tailwind CSS 从零搭建一个功能完善的个人网站。
+Building a personal portfolio is one of the best ways to demonstrate technical expertise and document a learning journey. This article explains how to build a polished personal website from scratch with Next.js 14 and Tailwind CSS.
 
-## 技术选型
+## Technology Choices
 
-### 为什么选择 Next.js？
+### Why Next.js?
 
-- **App Router**: 基于文件系统的路由，直观且高效
-- **Server Components**: 默认服务端渲染，性能优异
-- **MDX 支持**: 直接在组件中编写 Markdown
-- **Vercel 部署**: 一键部署，自动 CI/CD
+- **App Router**: File-system-based routing that is intuitive and efficient
+- **Server Components**: Server rendering by default for strong performance
+- **MDX Support**: Write Markdown directly within components
+- **Vercel Deployment**: One-command deployment with automated CI/CD
 
-### 为什么选择 Tailwind CSS？
+### Why Tailwind CSS?
 
-- **Utility-First**: 原子化 CSS 类，开发效率极高
-- **响应式设计**: 内置断点系统
-- **自定义主题**: 灵活的设计 token 配置
-- **JIT 引擎**: 按需生成 CSS，构建产物极小
+- **Utility-First**: Atomic utility classes for highly efficient development
+- **Responsive Design**: Built-in breakpoints for adaptable layouts
+- **Custom Themes**: Flexible design-token configuration
+- **JIT Engine**: Generates CSS on demand for a smaller production bundle
 
-## 项目架构
+## Project Architecture
 
 \`\`\`
 src/
-├── app/          # Next.js App Router 页面
-├── components/   # 可复用组件
-├── data/         # 数据层 (类型定义 + 数据)
-├── content/      # MDX 博客内容
-└── lib/          # 工具函数
+├── app/          # Next.js App Router pages
+├── components/   # Reusable components
+├── data/         # Data layer (type definitions and data)
+├── content/      # MDX blog content
+└── lib/          # Utility functions
 \`\`\`
 
-## 核心功能实现
+## Core Features
 
-### 1. 响应式导航栏
+### 1. Responsive Navigation
 
-使用 Tailwind CSS 的响应式断点和状态管理实现移动端适配的导航栏。
+Use Tailwind CSS responsive breakpoints and state management to build a navigation bar that adapts to mobile layouts.
 
-### 2. 技术栈展示
+### 2. Tech Stack Showcase
 
-将技术栈按类别分组展示，使用卡片组件呈现每个技术的熟练度和描述。
+Group technologies by category and use card components to present proficiency levels and descriptions.
 
-### 3. 时间线组件
+### 3. Timeline Component
 
-使用 CSS 实现垂直时间线，展示学习历程中的重要节点。
+Use CSS to create a vertical timeline highlighting important milestones in the learning journey.
 
-### 4. 博客系统
+### 4. Blog System
 
-基于文件系统的 MDX 博客，支持代码高亮和自定义组件。
+Build a file-system-based MDX blog with syntax highlighting and custom component support.
 
-## 部署
+## Deployment
 
-项目完成后，通过 Vercel 一键部署，绑定自定义域名即可上线。
+Once complete, deploy the project with Vercel and connect a custom domain to go live.
 
-## 总结
+## Conclusion
 
-通过这个项目，你将掌握：
-- Next.js App Router 的核心概念
-- Tailwind CSS 的实用技巧
-- 组件化开发的思维方式
-- 从开发到部署的完整流程
+By completing this project, you will gain:
+- Core Next.js App Router concepts
+- Practical Tailwind CSS techniques
+- A component-driven development mindset
+- An end-to-end workflow from development to deployment
 
-希望这篇文章对你有所帮助！`,
+I hope you find this article useful!`,
   },
   "llm-rag-practice": {
-    title: "RAG 架构实战：构建基于大语言模型的知识问答系统",
+    title: "RAG in Practice: Building an LLM-Powered Knowledge Q&A System",
     date: "2024-05-20",
-    readTime: "15 分钟",
-    tags: ["LLM", "RAG", "LangChain", "向量数据库"],
-    content: `## 什么是 RAG？
+    readTime: "15 min read",
+    tags: ["LLM", "RAG", "LangChain", "Vector Databases"],
+    content: `## What Is RAG?
 
-检索增强生成（Retrieval-Augmented Generation，RAG）是一种将信息检索与文本生成相结合的技术架构。它通过从外部知识库中检索相关信息，然后将其作为上下文提供给大语言模型，从而生成更准确、更可靠的回答。
+Retrieval-augmented generation (RAG) combines information retrieval with text generation. It retrieves relevant information from an external knowledge base and provides it as context to a large language model, enabling more accurate and reliable responses.
 
-## RAG 的核心组件
+## Core Components of RAG
 
-### 1. 文档处理
+### 1. Document Processing
 
-首先需要将文档分割成合适大小的块（chunks），以便进行高效检索。
+First, split documents into appropriately sized chunks for efficient retrieval.
 
-### 2. 向量化
+### 2. Vectorization
 
-使用 Embedding 模型将文本块转换为向量表示，存储在向量数据库中。
+Use an embedding model to convert text chunks into vector representations and store them in a vector database.
 
-### 3. 检索
+### 3. Retrieval
 
-当用户提问时，将问题也转换为向量，在向量数据库中搜索最相关的文档块。
+When a user asks a question, convert it into a vector and search the vector database for the most relevant document chunks.
 
-### 4. 生成
+### 4. Generation
 
-将检索到的相关文档块作为上下文，与用户问题一起提供给 LLM 生成最终回答。
+Provide the retrieved document chunks as context alongside the user question so the LLM can generate a final answer.
 
-## 实战步骤
+## Implementation Steps
 
-### 环境搭建
+### Environment Setup
 
-使用 LangChain 框架可以大大简化 RAG 系统的开发流程。
+The LangChain framework can significantly simplify the development workflow for a RAG system.
 
-### 向量数据库选择
+### Choosing a Vector Database
 
-- **Chroma**: 轻量级，适合原型开发
-- **Pinecone**: 全托管，适合生产环境
-- **Weaviate**: 开源，功能丰富
+- **Chroma**: Lightweight and well suited to prototyping
+- **Pinecone**: Fully managed and suitable for production
+- **Weaviate**: Open source with a rich feature set
 
-### 优化策略
+### Optimization Strategies
 
-1. **分块策略**: 选择合适的 chunk size 和 overlap
-2. **检索优化**: 使用混合检索（关键词 + 语义）
-3. **重排序**: 对检索结果进行二次排序提高精度
-4. **Prompt 工程**: 精心设计提示词模板
+1. **Chunking Strategy**: Choose appropriate chunk sizes and overlap
+2. **Retrieval Optimization**: Combine keyword and semantic retrieval
+3. **Reranking**: Rerank retrieved results to improve precision
+4. **Prompt Engineering**: Carefully design prompt templates
 
-## 总结
+## Conclusion
 
-RAG 是当前企业级 LLM 应用的核心架构，掌握它对于 AI 应用开发者来说至关重要。`,
+RAG is a foundational architecture for enterprise LLM applications, making it an essential skill for AI application developers.`,
   },
   "typescript-advanced": {
-    title: "TypeScript 高级类型技巧：从入门到精通",
+    title: "Advanced TypeScript Types: From Fundamentals to Mastery",
     date: "2024-04-10",
-    readTime: "12 分钟",
-    tags: ["TypeScript", "类型系统", "编程技巧"],
-    content: `## 引言
+    readTime: "12 min read",
+    tags: ["TypeScript", "Type Systems", "Programming Techniques"],
+    content: `## Introduction
 
-TypeScript 的类型系统是其最强大的特性之一。掌握高级类型技巧可以让你写出更安全、更优雅的代码。
+TypeScript's type system is one of its most powerful features. Mastering advanced type techniques enables safer and more expressive code.
 
-## 条件类型
+## Conditional Types
 
-条件类型允许你根据类型关系创建新类型：
+Conditional types let you create new types based on relationships between types:
 
 \`\`\`typescript
 type IsString<T> = T extends string ? true : false;
 \`\`\`
 
-## 映射类型
+## Mapped Types
 
-映射类型可以基于已有类型创建新类型：
+Mapped types let you create new types from existing types:
 
 \`\`\`typescript
 type Readonly<T> = {
@@ -155,31 +155,31 @@ type Readonly<T> = {
 };
 \`\`\`
 
-## 模板字面量类型
+## Template Literal Types
 
-TypeScript 4.1 引入的模板字面量类型：
+Template literal types were introduced in TypeScript 4.1:
 
 \`\`\`typescript
 type EventName<T extends string> = \`on\${Capitalize<T>}\`;
 \`\`\`
 
-## 实用技巧总结
+## Practical Techniques
 
-### infer 关键字
+### The \`infer\` Keyword
 
-在条件类型中推断类型变量。
+Infer type variables within conditional types.
 
-### 递归类型
+### Recursive Types
 
-处理嵌套数据结构。
+Handle nested data structures.
 
-### 类型安全的事件系统
+### Type-Safe Event Systems
 
-结合模板字面量类型和映射类型构建类型安全的事件系统。
+Combine template literal types and mapped types to build type-safe event systems.
 
-## 总结
+## Conclusion
 
-掌握这些高级类型技巧，可以让你的 TypeScript 代码更加健壮和优雅。`,
+Mastering these advanced techniques will make your TypeScript code more robust and expressive.`,
   },
 };
 
@@ -208,7 +208,7 @@ export default async function BlogPostPage({
           className="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-blue-600 transition-colors mb-8"
         >
           <ArrowLeft size={16} />
-          返回博客列表
+          Back to Blog
         </Link>
 
         {/* Header */}

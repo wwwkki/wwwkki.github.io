@@ -18,23 +18,23 @@ export default function Footer() {
               Portfolio
             </Link>
             <p className="mt-2 text-sm text-gray-500 leading-relaxed">
-              热爱技术，专注于 Web 开发与人工智能。
+              Passionate about technology, with a focus on Web development and artificial intelligence.
               <br />
-              持续学习，乐于分享。
+              Always learning and happy to share.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider">
-              快速链接
+              Quick Links
             </h3>
             <ul className="mt-3 space-y-2">
               {[
-                { href: "/tech-stack", label: "技术栈" },
-                { href: "/learning-path", label: "学习路径" },
-                { href: "/blog", label: "博客" },
-                { href: "/papers", label: "论文" },
+                { href: "/tech-stack", label: "Tech Stack" },
+                { href: "/learning-path", label: "Learning Path" },
+                { href: "/blog", label: "Blog" },
+                { href: "/papers", label: "Papers" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -51,7 +51,7 @@ export default function Footer() {
           {/* Social */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider">
-              联系方式
+              Connect
             </h3>
             <div className="mt-3 flex items-center gap-3">
               <a

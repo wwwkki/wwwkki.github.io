@@ -16,14 +16,14 @@ export interface Paper {
 export const papers: Paper[] = [
   {
     id: "paper-1",
-    title: "基于知识图谱增强的文本分类方法研究",
-    authors: ["你的名字", "导师名字"],
-    venue: "计算机学报",
+    title: "Knowledge-Graph-Enhanced Methods for Text Classification",
+    authors: ["Your Name", "Advisor Name"],
+    venue: "Chinese Journal of Computers",
     year: 2022,
     type: "journal",
     abstract:
-      "本文提出了一种基于知识图谱增强的文本分类方法，通过将外部知识图谱信息融入预训练语言模型，显著提升了文本分类的准确率。实验结果表明，该方法在多个公开数据集上均取得了最优性能。",
-    keywords: ["知识图谱", "文本分类", "预训练模型", "自然语言处理"],
+      "We propose a knowledge-graph-enhanced approach to text classification that integrates external knowledge into a pretrained language model, substantially improving classification accuracy. Experiments show that the approach achieves state-of-the-art performance across multiple public datasets.",
+    keywords: ["Knowledge Graphs", "Text Classification", "Pretrained Models", "Natural Language Processing"],
     doi: "10.xxxx/xxxxx",
     pdf: "#",
     code: "https://github.com/yourusername/kg-text-classification",
@@ -31,7 +31,7 @@ export const papers: Paper[] = [
   {
     id: "paper-2",
     title: "Large Language Models for Domain-Specific Question Answering: A Comprehensive Study",
-    authors: ["你的名字", "合作者名字", "导师名字"],
+    authors: ["Your Name", "Co-author Name", "Advisor Name"],
     venue: "ACL 2023",
     year: 2023,
     type: "conference",
@@ -44,14 +44,14 @@ export const papers: Paper[] = [
   },
   {
     id: "paper-3",
-    title: "基于对比学习的代码搜索技术综述",
-    authors: ["你的名字", "合作者名字"],
-    venue: "软件学报",
+    title: "A Survey of Contrastive Learning for Code Search",
+    authors: ["Your Name", "Co-author Name"],
+    venue: "Journal of Software",
     year: 2023,
     type: "journal",
     abstract:
-      "本文系统综述了基于对比学习的代码搜索技术，从模型架构、训练策略和评估基准三个维度对现有方法进行了全面比较和分析，并指出了未来研究方向。",
-    keywords: ["代码搜索", "对比学习", "代码表示", "深度学习"],
+      "This paper presents a systematic survey of contrastive-learning-based code search. Existing methods are comprehensively compared across model architectures, training strategies, and evaluation benchmarks, followed by a discussion of future research directions.",
+    keywords: ["Code Search", "Contrastive Learning", "Code Representation", "Deep Learning"],
     doi: "10.xxxx/xxxxx",
     pdf: "#",
     code: "https://github.com/yourusername/code-search-survey",
@@ -59,7 +59,7 @@ export const papers: Paper[] = [
   {
     id: "paper-4",
     title: "RAG-Empowered Code Generation: Bridging the Gap Between Natural Language and Programming",
-    authors: ["你的名字", "导师名字"],
+    authors: ["Your Name", "Advisor Name"],
     venue: "arXiv preprint",
     year: 2024,
     type: "preprint",
@@ -73,10 +73,10 @@ export const papers: Paper[] = [
 ];
 
 export const researchInterests = [
-  "自然语言处理 (NLP)",
-  "大语言模型 (LLM) 应用",
-  "知识图谱与信息抽取",
-  "代码智能 (Code Intelligence)",
-  "检索增强生成 (RAG)",
-  "深度学习模型优化",
+  "Natural Language Processing (NLP)",
+  "Large Language Model (LLM) Applications",
+  "Knowledge Graphs and Information Extraction",
+  "Code Intelligence",
+  "Retrieval-Augmented Generation (RAG)",
+  "Deep Learning Model Optimization",
 ];

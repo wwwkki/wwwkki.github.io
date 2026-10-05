@@ -9,8 +9,8 @@ export default function ContactPage() {
     <main className="min-h-screen pt-24 pb-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          title="联系我"
-          description="有问题或合作意向？欢迎随时联系"
+          title="Contact Me"
+          description="Have a question or collaboration idea? I&apos;d love to hear from you."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
@@ -18,7 +18,7 @@ export default function ContactPage() {
           <div className="md:col-span-2 space-y-4">
             <div className="p-6 rounded-2xl bg-white border border-gray-100 space-y-5">
               <h3 className="text-lg font-semibold text-gray-900 mb-4">
-                联系方式
+                Contact Information
               </h3>
 
               <a
@@ -29,7 +29,7 @@ export default function ContactPage() {
                   <Mail size={18} className="text-blue-600" />
                 </div>
                 <div>
-                  <p className="text-xs text-gray-400">邮箱</p>
+                  <p className="text-xs text-gray-400">Email</p>
                   <p className="text-sm font-medium">{personalInfo.social.email}</p>
                 </div>
               </a>
@@ -75,7 +75,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-400">arXiv</p>
-                  <p className="text-sm font-medium">预印本主页</p>
+                  <p className="text-sm font-medium">Preprint Profile</p>
                 </div>
               </a>
 
@@ -90,7 +90,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-400">Google Scholar</p>
-                  <p className="text-sm font-medium">学术主页</p>
+                  <p className="text-sm font-medium">Academic Profile</p>
                 </div>
               </a>
 
@@ -99,7 +99,7 @@ export default function ContactPage() {
                   <MapPin size={18} className="text-green-600" />
                 </div>
                 <div>
-                  <p className="text-xs text-gray-400">所在地</p>
+                  <p className="text-xs text-gray-400">Location</p>
                   <p className="text-sm font-medium">{personalInfo.location}</p>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function ContactPage() {
           {/* Contact Form */}
           <div className="md:col-span-3 p-6 rounded-2xl bg-white border border-gray-100">
             <h3 className="text-lg font-semibold text-gray-900 mb-6">
-              发送消息
+              Send a Message
             </h3>
             <ContactForm />
           </div>

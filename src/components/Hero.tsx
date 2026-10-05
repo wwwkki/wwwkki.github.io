@@ -22,19 +22,19 @@ export default function Hero() {
 
         {/* Main heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 mb-6 leading-tight">
-          你好，我是{" "}
+          Hello, I&apos;m{" "}
           <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
             wwwkki
           </span>
         </h1>
 
         <p className="text-lg sm:text-xl text-gray-500 max-w-2xl mx-auto mb-4 leading-relaxed">
-          全栈开发者 &amp; AI 研究员
+          Full-Stack Developer &amp; AI Researcher
         </p>
         <p className="text-base text-gray-400 max-w-xl mx-auto mb-10 leading-relaxed">
-          热衷于构建优秀的数字产品，探索人工智能的无限可能。
+          Passionate about building exceptional digital products and exploring the possibilities of artificial intelligence.
           <br />
-          在这里，我分享我的技术栈、学习历程、研究心得与项目经验。
+          Here, I share my technical expertise, learning journey, research insights, and project experience.
         </p>
 
         {/* CTA Buttons */}
@@ -43,31 +43,31 @@ export default function Hero() {
             href="/tech-stack"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gray-900 text-white font-medium hover:bg-gray-800 transition-all shadow-lg shadow-gray-200 hover:shadow-xl hover:shadow-gray-300 hover:-translate-y-0.5"
           >
-            了解我的技术栈
+            Explore My Tech Stack
             <ArrowRight size={18} />
           </Link>
           <Link
             href="/blog"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-gray-700 font-medium border border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all shadow-sm hover:shadow-md hover:-translate-y-0.5"
           >
-            阅读博客文章
+            Read My Articles
           </Link>
           <a
             href="/resume.pdf"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-gray-700 font-medium border border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all shadow-sm hover:shadow-md hover:-translate-y-0.5"
           >
             <Download size={18} />
-            下载简历
+            Download Resume
           </a>
         </div>
 
         {/* Stats */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-16 max-w-2xl mx-auto">
           {[
-            { value: "5+", label: "年开发经验" },
-            { value: "20+", label: "完成项目" },
-            { value: "4", label: "发表论文" },
-            { value: "10+", label: "技术技能" },
+            { value: "5+", label: "Years of Experience" },
+            { value: "20+", label: "Projects Delivered" },
+            { value: "4", label: "Published Papers" },
+            { value: "10+", label: "Technical Skills" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-2xl sm:text-3xl font-bold text-gray-900">

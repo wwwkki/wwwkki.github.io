@@ -1,63 +1,63 @@
 ---
-title: "从零搭建个人技术网站 — Next.js + Tailwind CSS 实战"
+title: "Building a Personal Portfolio from Scratch — Next.js + Tailwind CSS in Practice"
 date: "2024-06-15"
-readTime: "8 分钟"
-tags: ["Next.js", "Tailwind CSS", "个人网站", "前端开发"]
-description: "详细记录使用 Next.js 14 和 Tailwind CSS 从零搭建个人技术网站的全过程。"
+readTime: "8 min read"
+tags: ["Next.js", "Tailwind CSS", "Personal Portfolio", "Frontend Development"]
+description: "A detailed account of building a personal portfolio with Next.js 14 and Tailwind CSS from the ground up."
 ---
 
-## 前言
+## Introduction
 
-搭建一个个人技术网站是展示技术能力、记录学习过程的最佳方式之一。本文将详细介绍如何使用 Next.js 和 Tailwind CSS 从零搭建一个功能完善的个人网站。
+Building a personal portfolio is one of the best ways to demonstrate technical expertise and document a learning journey. This article explains how to build a polished personal website from scratch with Next.js and Tailwind CSS.
 
-## 技术选型
+## Technology Choices
 
-### 为什么选择 Next.js？
+### Why Next.js?
 
-- **App Router**: 基于文件系统的路由，直观且高效
-- **Server Components**: 默认服务端渲染，性能优异
-- **静态生成**: 博客内容可以预渲染为静态页面
-- **Vercel 部署**: 一键部署，自动 CI/CD
+- **App Router**: File-system-based routing that is intuitive and efficient
+- **Server Components**: Server rendering by default for strong performance
+- **Static Generation**: Blog content can be pre-rendered as static pages
+- **Vercel Deployment**: One-command deployment with automated CI/CD
 
-### 为什么选择 Tailwind CSS？
+### Why Tailwind CSS?
 
-- **Utility-First**: 原子化 CSS 类，开发效率极高
-- **响应式设计**: 内置断点系统，移动端适配简单
-- **JIT 引擎**: 按需生成 CSS，构建产物极小
+- **Utility-First**: Atomic utility classes for highly efficient development
+- **Responsive Design**: Built-in breakpoints simplify mobile adaptation
+- **JIT Engine**: Generates CSS on demand for a smaller production bundle
 
-## 项目架构
+## Project Architecture
 
 ```
 src/
-├── app/          # Next.js App Router 页面
-├── components/   # 可复用组件
-├── data/         # 数据层 (类型定义 + 数据)
-├── content/      # MDX 博客内容
-└── lib/          # 工具函数
+├── app/          # Next.js App Router pages
+├── components/   # Reusable components
+├── data/         # Data layer (type definitions and data)
+├── content/      # MDX blog content
+└── lib/          # Utility functions
 ```
 
-## 核心页面
+## Core Pages
 
-1. **首页** — 个人介绍与技能概览
-2. **关于我** — 教育背景与工作经历
-3. **技术栈** — 分类展示技术能力
-4. **学习路径** — 时间线展示成长历程
-5. **博客** — 技术文章分享
-6. **论文** — 学术成果展示
-7. **联系** — 联系方式与表单
+1. **Home** — Personal introduction and skills overview
+2. **About** — Educational background and work experience
+3. **Tech Stack** — Categorized technical capabilities
+4. **Learning Path** — A timeline of professional growth
+5. **Blog** — Technical articles and notes
+6. **Papers** — Academic publications and research
+7. **Contact** — Contact details and inquiry form
 
-## 部署
+## Deployment
 
-项目通过 Vercel 部署：
+The project is deployed with Vercel:
 
 ```bash
-# 安装 Vercel CLI
+# Install the Vercel CLI
 npm i -g vercel
 
-# 部署
+# Deploy
 vercel
 ```
 
-## 总结
+## Conclusion
 
-通过这个项目，你掌握了 Next.js App Router 的核心概念和 Tailwind CSS 的实用技巧。希望这篇文章对你有所帮助！
+By completing this project, you will gain a solid understanding of the Next.js App Router and practical Tailwind CSS techniques. I hope you find this article useful!

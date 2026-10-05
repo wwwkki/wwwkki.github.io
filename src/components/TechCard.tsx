@@ -9,12 +9,12 @@ import {
 import type { TechItem } from "@/data/tech-stack";
 
 const categoryIcons: Record<string, React.ReactNode> = {
-  "前端开发": <Monitor size={20} />,
-  "后端开发": <Server size={20} />,
-  "数据库": <Database size={20} />,
-  "DevOps & 工具": <Terminal size={20} />,
-  "AI & 机器学习": <BrainCircuit size={20} />,
-  "编程语言": <Code2 size={20} />,
+  "Frontend Development": <Monitor size={20} />,
+  "Backend Development": <Server size={20} />,
+  "Databases": <Database size={20} />,
+  "DevOps & Tooling": <Terminal size={20} />,
+  "AI & Machine Learning": <BrainCircuit size={20} />,
+  "Programming Languages": <Code2 size={20} />,
 };
 
 interface TechCardProps {

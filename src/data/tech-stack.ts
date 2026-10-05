@@ -14,70 +14,70 @@ export interface TechCategory {
 
 export const techCategories: TechCategory[] = [
   {
-    name: "前端开发",
+    name: "Frontend Development",
     icon: "Monitor",
-    description: "构建现代化、高性能的用户界面",
+    description: "Building modern, high-performance user interfaces",
   },
   {
-    name: "后端开发",
+    name: "Backend Development",
     icon: "Server",
-    description: "设计可扩展的服务端架构与 API",
+    description: "Designing scalable server-side architectures and APIs",
   },
   {
-    name: "数据库",
+    name: "Databases",
     icon: "Database",
-    description: "数据存储、查询优化与数据建模",
+    description: "Data storage, query optimization, and data modeling",
   },
   {
-    name: "DevOps & 工具",
+    name: "DevOps & Tooling",
     icon: "Terminal",
-    description: "自动化部署、CI/CD 与开发工具链",
+    description: "Automated delivery, CI/CD, and developer tooling",
   },
   {
-    name: "AI & 机器学习",
+    name: "AI & Machine Learning",
     icon: "BrainCircuit",
-    description: "深度学习、NLP 与模型部署",
+    description: "Deep learning, NLP, and model deployment",
   },
   {
-    name: "编程语言",
+    name: "Programming Languages",
     icon: "Code2",
-    description: "精通多种编程范式与语言特性",
+    description: "Proficiency in multiple programming paradigms and language features",
   },
 ];
 
 export const techStack: TechItem[] = [
-  // 前端开发
-  { name: "React", icon: "react", category: "前端开发", level: 5, description: "熟练使用 React Hooks、Next.js、状态管理" },
-  { name: "Vue.js", icon: "vue", category: "前端开发", level: 4, description: "使用 Vue 3 Composition API 构建中大型应用" },
-  { name: "TypeScript", icon: "typescript", category: "前端开发", level: 5, description: "类型安全的前端开发，泛型与高级类型" },
-  { name: "Tailwind CSS", icon: "tailwind", category: "前端开发", level: 5, description: "Utility-first CSS 框架快速构建 UI" },
-  { name: "Next.js", icon: "nextjs", category: "前端开发", level: 5, description: "SSR/SSG/ISR 全栈应用开发" },
+  // Frontend Development
+  { name: "React", icon: "react", category: "Frontend Development", level: 5, description: "React Hooks, Next.js, and state management" },
+  { name: "Vue.js", icon: "vue", category: "Frontend Development", level: 4, description: "Building medium-to-large applications with the Vue 3 Composition API" },
+  { name: "TypeScript", icon: "typescript", category: "Frontend Development", level: 5, description: "Type-safe frontend development, generics, and advanced types" },
+  { name: "Tailwind CSS", icon: "tailwind", category: "Frontend Development", level: 5, description: "Rapid UI development with a utility-first CSS framework" },
+  { name: "Next.js", icon: "nextjs", category: "Frontend Development", level: 5, description: "Full-stack application development with SSR, SSG, and ISR" },
 
-  // 后端开发
-  { name: "Node.js", icon: "nodejs", category: "后端开发", level: 5, description: "Express/Nest.js 服务端应用开发" },
-  { name: "Python", icon: "python", category: "后端开发", level: 4, description: "FastAPI/Django REST 框架" },
-  { name: "GraphQL", icon: "graphql", category: "后端开发", level: 3, description: "API 查询语言与 Apollo 生态" },
-  { name: "REST API", icon: "api", category: "后端开发", level: 5, description: "RESTful 架构设计与最佳实践" },
+  // Backend Development
+  { name: "Node.js", icon: "nodejs", category: "Backend Development", level: 5, description: "Server-side application development with Express and NestJS" },
+  { name: "Python", icon: "python", category: "Backend Development", level: 4, description: "FastAPI and Django REST frameworks" },
+  { name: "GraphQL", icon: "graphql", category: "Backend Development", level: 3, description: "API query language and the Apollo ecosystem" },
+  { name: "REST API", icon: "api", category: "Backend Development", level: 5, description: "RESTful architecture design and best practices" },
 
-  // 数据库
-  { name: "PostgreSQL", icon: "postgresql", category: "数据库", level: 4, description: "关系型数据库设计与性能优化" },
-  { name: "MongoDB", icon: "mongodb", category: "数据库", level: 4, description: "NoSQL 文档数据库与聚合管道" },
-  { name: "Redis", icon: "redis", category: "数据库", level: 3, description: "缓存策略与消息队列" },
+  // Databases
+  { name: "PostgreSQL", icon: "postgresql", category: "Databases", level: 4, description: "Relational database design and performance optimization" },
+  { name: "MongoDB", icon: "mongodb", category: "Databases", level: 4, description: "NoSQL document databases and aggregation pipelines" },
+  { name: "Redis", icon: "redis", category: "Databases", level: 3, description: "Caching strategies and message queues" },
 
   // DevOps
-  { name: "Docker", icon: "docker", category: "DevOps & 工具", level: 4, description: "容器化部署与微服务架构" },
-  { name: "Git", icon: "git", category: "DevOps & 工具", level: 5, description: "版本控制与团队协作工作流" },
-  { name: "CI/CD", icon: "cicd", category: "DevOps & 工具", level: 4, description: "GitHub Actions 自动化流水线" },
-  { name: "Linux", icon: "linux", category: "DevOps & 工具", level: 4, description: "服务器管理与 Shell 脚本" },
+  { name: "Docker", icon: "docker", category: "DevOps & Tooling", level: 4, description: "Containerized delivery and microservice architecture" },
+  { name: "Git", icon: "git", category: "DevOps & Tooling", level: 5, description: "Version control and collaborative development workflows" },
+  { name: "CI/CD", icon: "cicd", category: "DevOps & Tooling", level: 4, description: "Automated pipelines with GitHub Actions" },
+  { name: "Linux", icon: "linux", category: "DevOps & Tooling", level: 4, description: "Server administration and shell scripting" },
 
   // AI
-  { name: "TensorFlow", icon: "tensorflow", category: "AI & 机器学习", level: 3, description: "深度学习模型训练与部署" },
-  { name: "PyTorch", icon: "pytorch", category: "AI & 机器学习", level: 4, description: "研究导向的深度学习框架" },
-  { name: "LangChain", icon: "langchain", category: "AI & 机器学习", level: 3, description: "LLM 应用开发框架" },
+  { name: "TensorFlow", icon: "tensorflow", category: "AI & Machine Learning", level: 3, description: "Deep learning model training and deployment" },
+  { name: "PyTorch", icon: "pytorch", category: "AI & Machine Learning", level: 4, description: "Research-oriented deep learning framework" },
+  { name: "LangChain", icon: "langchain", category: "AI & Machine Learning", level: 3, description: "Framework for building LLM-powered applications" },
 
-  // 编程语言
-  { name: "JavaScript", icon: "javascript", category: "编程语言", level: 5, description: "ES6+，异步编程与函数式范式" },
-  { name: "TypeScript", icon: "typescript", category: "编程语言", level: 5, description: "静态类型检查与高级类型体操" },
-  { name: "Python", icon: "python", category: "编程语言", level: 4, description: "数据分析、机器学习与后端开发" },
-  { name: "Go", icon: "go", category: "编程语言", level: 2, description: "高性能并发编程入门" },
+  // Programming Languages
+  { name: "JavaScript", icon: "javascript", category: "Programming Languages", level: 5, description: "ES6+, asynchronous programming, and functional paradigms" },
+  { name: "TypeScript", icon: "typescript", category: "Programming Languages", level: 5, description: "Static type checking and advanced type design" },
+  { name: "Python", icon: "python", category: "Programming Languages", level: 4, description: "Data analysis, machine learning, and backend development" },
+  { name: "Go", icon: "go", category: "Programming Languages", level: 2, description: "Foundations of high-performance concurrent programming" },
 ];

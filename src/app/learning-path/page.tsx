@@ -7,8 +7,8 @@ export default function LearningPathPage() {
     <main className="min-h-screen pt-24 pb-16">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          title="学习路径"
-          description="从入门到进阶，记录我的技术成长历程"
+          title="Learning Path"
+          description="A record of my technical growth from fundamentals to advanced practice"
         />
 
         <div className="mt-8">
